@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New News Company</title>
+
+    <!-- Fonts & Favicon-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Oswald:wght@200;300;400;500;600;700&family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="theme-color" content="#555555">
+    <!--*******-->
+
+    <!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet" >
+    <!--*******-->
+    
+  </head>
+
+  <body>
+    
+  <!-- NAVIGATION  -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center" aria-label="Eighth navbar example">
+      <div class="container">
+
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">New News Company</a>
+          <!--*******-->
+
+        <!-- Hamburger Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--*******-->
+
+
+        <!-- Colapse -->
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+
+          <!-- Topics  -->
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 ml-5">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Opinion</a>
+            </li>
+          </ul>
+          <!--*******-->
+
+          <!-- Date & Weather  -->
+          <div class="container date">
+            <div class="row">
+              <div class="col">Dec. 11 2020</div>
+            </div>
+            <div class="row">
+              <div class="col weather">NYC -1&#8451;
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-cloud" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/></svg>
+              </div>
+            </div>
+          </div>
+          <!--*******-->
+
+          <!-- Login -->
+          <div class="login">
+            <a href="#">
+              <svg width="16px" height="16px" viewBox="0 0 18 18" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg> Login
+            </a>
+          </div>
+          <!--*******-->
+
+          <!-- Search -->
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-default search" type="submit">
+                  <svg width="22px" height="22px" viewBox="0 0 26 26" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
+                </button>
+              </div>
+            </div>
+          </form>
+          <!--*******-->
+
+        </div>
+        <!--*******-->
+
+
+      </div>
+    </nav>
+  </header>
+    <!-- ********************************************************************************** -->
+
+
+
+
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+
+      <!-- Left Side >> Main News -->
+      <div class="col-md-8 main">
+
+
+        <!-- NEWS >> 1 Image & 1 Text -->
+        <div class="colborder">
+          <h4>Pfizer ramping up supply chain to meet world-wide demand for vaccination</h4>
+          <div class="row">
+            <div class="col-lg-7">
+              <img class="resimg" src="./assets/img/doctor.jpg" alt="Doctor">
+            </div>
+            <div class="col-lg-5">
+              <h5 class="pb-2">First U.S. Approval of a Covid-19 Vaccine Is Likely Within Days</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veniam! Blanditiis dolore aspernatur eaque, delectus voluptates harum distinctio nesciunt rerum facere ratione, neque, quo consequatur doloribus iste dolores eum sed. Nunc iaculis pellentesque ex, ac finibus ligula vestibulum a Vestibulum accumsan. Morbi id enim in augue hendrerit facilisis. Aliquam cursus sed tortor ac sagittis.</p>
+            </div>
+          </div>
+        </div>
+        <!--*******-->
+
+
+        <!-- NEWS >> 1 Image & 1 Text -->
+        <div class="colborder">
+          <h4>You've got to get enough sleep</h4>
+          <div class="row">
+            <div class="col-lg-7">
+              <h5 class="pb-2">Other travelling salesmen live a life of luxury.</h5>
+              <p>For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts. I ought to just try that with my boss; I'd get kicked out on the spot. Praesent at pretium felis. I never spend much time in school but I taught ladies plenty. It’s true I hire my body out for pay, hey hey. </p>
+            </div>
+            <div class="col-lg-5">
+              <img class="resimg" src="./assets/img/fire.jpg" alt="Fire">
+            </div>
+          </div>
+        </div>
+        <!--*******-->
+
+
+        <!-- NEWS >> 4 Images & 4 Texts-->
+        <div class="colborder">
+          <div class="row">
+
+            <!-- SUBNEWS -->
+            <div class="col-md-6 col-lg-3">
+              <h5>The bedding was hardly able to cover it and seemed?</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/farm.jpg" alt="Farm">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <!--*******-->
+
+            <!-- SUBNEWS -->
+            <div class="col-md-6 col-lg-3">
+              <h5>Thise morning, when Gregor Samsa woke from troubled</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/protest.jpg" alt="Demonstration">
+              </div>
+              <p>Sed venenatis ante a tellus bibendum, quis pellentesque magna tempus. Praesent at pretium felis. Morbi id enim in augue hendrerit facilisis.</p>
+            </div>
+            <!--*******-->
+
+            <!-- SUBNEWS -->
+            <div class="col-md-6 col-lg-3">
+              <h5>He lay on his armour-like back again for a third time!</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/speech.jpg" alt="Speech">
+              </div>
+              <p> Aliquam cursus sed tortor ac sagittis. Sed nibh lacus, dapibus sit amet volutpat ac, consectetur vulputate lectus. Nunc iaculis pellentesque ex, ac finibus ligula vestibulum a Vestibulum accumsan.</p>
+            </div>
+            <!--*******-->
+
+            <!-- SUBNEWS -->
+            <div class="col-md-6 col-lg-3">
+              <h5>It's a funny sort of business to be sitting at your desk</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/books.jpg" alt="Books">
+              </div>
+              <p> He slid back into his former position. "Getting up early all the time", he thought, "it makes you stupid. You've got to get enough sleep. Other travelling salesmen live a life of luxury.</p>
+            </div>
+            <!--*******-->
+
+          </div>
+        </div>
+        <!--*******-->
+
+
+        <!-- NEWS >> 2 Images & 2 Texts-->
+        <div class="colborder">
+          <div class="row">
+
+            <!-- SUBNEWS -->
+            <div class="col-lg-6">
+              <h4 class="pb-2">The most effectual Top Cat</h4><h5 class="pb-2">One for all and all for one</h5>
+              <p>Knight Rider, a shadowy flight into the world of a man who does not exist. A young loner on a crusade to champion the cause of the innocent, the helpless in a world of criminals who operate above the law.</p>
+              <img class="resimg" src="./assets/img/galaxy.jpg" alt="Galaxy">
+            </div>
+            <!--*******-->
+
+            <!-- SUBNEWS -->
+            <div class="col-lg-6">
+              <h4 class="pb-2">Muskehounds are always ready</h4><h5 class="pb-2">Who’s intellectual close friends get to call him T.C.?</h5>
+              <p>For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts. I ought to just try that with my boss; I'd get kicked out on the spot.</p>
+              <img class="resimg" src="./assets/img/rocket.jpg" alt="Rocket">
+            </div>
+            <!--*******-->
+
+          </div>
+        </div>
+        <!--*******-->
+
+        
+        <!-- NEWS >> 3 Images & 3 Texts-->
+        <div>
+          <div class="row">
+
+            <!-- SUBNEWS -->
+            <div class="col-md-4">
+              <h5>The bedding was hardly able to cover it and seemed?</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/church.jpg" alt="Church">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <!--*******-->
+
+            <!-- SUBNEWS -->
+            <div class="col-md-4">
+              <h5>Thise morning, when Gregor Samsa woke from trouble</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/wind.jpg" alt="Wind Energy">
+              </div>
+              <p>Sed venenatis ante a tellus bibendum, quis pellentesque magna tempus. Praesent at pretium felis. Morbi id enim in augue hendrerit facilisis.</p>
+            </div>
+            <!--*******-->
+
+            <!-- SUBNEWS -->
+            <div class="col-md-4">
+              <h5>He lay on his armour-like back again for a third time!</h5>
+              <div class="imgcol">
+                <img class="resimg" src="./assets/img/football.jpg" alt="Football">
+              </div>
+              <p> Aliquam cursus sed tortor ac sagittis. Sed nibh lacus, dapibus sit amet volutpat ac, consectetur vulputate lectus. Nunc iaculis pellentesque ex, ac finibus ligula vestibulum a Vestibulum accumsan.</p>
+            </div>
+            <!--*******-->
+
+          </div>
+        </div>
+        <!--*******-->
+
+
+      </div> <!-- END - Left Side >> Main News-->
+
+
+
+      <!-- Right Side >> Sidebar -->
+      <div class="col-md-4 borderleft">
+
+
+        <div class="rightsection">
+
+
+
+          <!-- Row #1 -->
+          <div class="rightsection-title">US</div>
+          <p class="rightsection-headlines">US competes for best university rankings</p>
+          <p class="rightsection-headlines">Sed venenatis ante a tellus bibendum, quis pellentesque magna</p>
+          <p class="rightsection-headlines">You've got to get enough sleep</p>
+          <p class="rightsection-headlines">Lorem ipsum dolor sit amet</p>
+          <!--*******-->
+
+
+          <!-- Row #2 -->
+          <div class="rightsection-title">World</div>
+          <p class="rightsection-headlines">US competes for best university rankings</p>
+          <p class="rightsection-headlines">Sed venenatis ante a tellus bibendum, quis pellentesque magna</p>
+          <p class="rightsection-headlines">You've got to get enough sleep</p>
+          <p class="rightsection-headlines">Lorem ipsum dolor sit amet</p>
+          <!--*******-->
+
+
+          <!-- Row #3 -->
+          <img class="resimg rightsection-image" src="./assets/img/ads.jpg" alt="Advertisement">
+          <!--*******-->
+
+
+
+          
+          <!-- Row #4 -->
+          <div class="rightsection-title">NYC Weather</div>
+
+            <div class="rightsection-weather">
+              <div class="row">
+
+                <div class="col-3">
+                  MON
+                  <img class="resimg" src="./assets/img/weather1.png" alt="Weather Sunny">
+                  -1&#8451;
+                </div>
+
+                <div class="col-3">
+                  TUE
+                  <img class="resimg" src="./assets/img/weather2.png" alt="Weather Dry Clouds">
+                  3&#8451;
+                </div>
+
+                <div class="col-3">
+                  WED
+                  <img class="resimg" src="./assets/img/weather3.png" alt="Weather Wet Clouds">
+                  2&#8451;
+                </div>
+
+                <div class="col-3">
+                  THU
+                  <img class="resimg" src="./assets/img/weather4.png" alt="Weather Raining">
+                  6&#8451;
+                </div>
+
+              </div><!-- row-->
+            </div><!-- rightsection-weather -->
+            
+          </div>
+          <!--*******-->
+
+          
+          <!-- Row #5 -->
+          <div class="rightsection-title">Markets</div>
+            <div class="rightsection-markets">
+              <div class="row">
+                <div class="col-4">S&P Futures </div><div class="col-3"><b>3,687.00</b></div><div class="col-5 text-success">+25.75(+0.70%)</div>
+                <!-- <div class="col-12"></div> -->
+                <hr>
+                <div class="col-4">Dow Futures </div><div class="col-3"><b>30,268.00</b></div><div class="col-5 text-success">+244.00(+0.81%)</div>
+                <hr>
+                <div class="col-4">Nasdaq Futures </div><div class="col-3"><b>12,446.75</b></div><div class="col-5 text-danger">-78.75(-0.64%)</div>
+                <hr>
+              </div><!-- row -->
+          </div><!-- rightsection-markets -->
+          <!--*******-->
+
+
+
+
+          <!-- Row #6 -->
+          <div class="rightsection-title">Entertainment</div>
+          <p class="rightsection-headlines">US competes for best university rankings</p>
+          <p class="rightsection-headlines">Sed venenatis ante a tellus bibendum, quis pellentesque magna</p>
+          <p class="rightsection-headlines">You've got to get enough sleep</p>
+          <p class="rightsection-headlines">Lorem ipsum dolor sit amet</p>
+          <!--*******-->
+
+
+
+          <!-- Row #7 -->
+          <div class="rightsection-title">Culture</div>
+          <p class="rightsection-headlines">US competes for best university rankings</p>
+          <p class="rightsection-headlines">Sed venenatis ante a tellus bibendum, quis pellentesque magna</p>
+          <p class="rightsection-headlines">You've got to get enough sleep</p>
+          <p class="rightsection-headlines">Lorem ipsum dolor sit amet</p>
+          <!--*******-->
+
+
+
+          <!-- Row #8 -->
+          <div class="rightsection-title">Sport</div>
+          <p class="rightsection-headlines">US competes for best university rankings</p>
+          <p class="rightsection-headlines">Sed venenatis ante a tellus bibendum, quis pellentesque magna</p>
+          <p class="rightsection-headlines">You've got to get enough sleep</p>
+          <p class="rightsection-headlines">Lorem ipsum dolor sit amet</p>
+          <!--*******-->
+
+
+
+          <!-- Row #9 -->
+          <div class="rightsection-title">Travel</div>
+          <p class="rightsection-headlines">US competes for best university rankings</p>
+          <p class="rightsection-headlines">Sed venenatis ante a tellus bibendum, quis pellentesque magna</p>
+          <p class="rightsection-headlines">You've got to get enough sleep</p>
+          <p class="rightsection-headlines">Lorem ipsum dolor sit amet</p>
+          <!--*******-->
+
+
+
+
+          <!-- Row #10 -->
+          <div class="rightsection-title">Opinion</div>
+          <div class="rightsection-opinion">
+            <div class="row">
+
+              <!-- Face 1 -->
+              <div class="col-lg-6 text-center">
+                <div class="opinion-name">Tommie Collins</div>
+                <img class="resimg" src="./assets/img/face1.jpg" alt="Tommie Collins">
+                <p>This is my boss, Jonathan Hart, a self-made millionaire, he’s quite a guy. This is Mrs H., she’s gorgeous, she’s one lady who knows how to take care of herself.</p>
+              </div>
+
+              <!-- Face 2 -->
+              <div class="col-lg-6 text-center">
+                <div class="opinion-name">Amie Sanderson</div>
+                <img class="resimg" src="./assets/img/face2.jpg" alt="Amie Sanderson">
+                <p>When courage is needed, you’re never around. Those medals you wear on your moth-eaten chest should be there for bungling at which you are best.</p>
+              </div>
+
+            </div><!-- row -->
+          </div><!-- rightsection-opinion -->
+          <!--*******-->
+
+
+
+        </div><!-- rightsection -->
+      </div><!-- col-4 borderleft -->
+      <!--*******-->
+
+
+
+    </div> <!-- row-->
+  </div>  <!-- container-->
+    <!-- ********************************************************************************** -->
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+          <!-- Social Media -->
+          <div class="col-12 socialmedia">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/></svg>
+            </a>
+
+
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>              
+            </a>
+
+
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>              
+            </a>
+
+
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg>              
+            </a>
+
+          </div>
+          <!--*******-->
+
+          <!-- Footer Middle Row -->
+          <div class="col-12 footerlinks">
+            <a href="#"><span>Advertise with us</span></a>
+            <a href="#"><span>Jobs</span></a>
+            <a href="#"><span>About Us</span></a>
+            <a href="#"><span>Contact</span></a>
+            <a href="#"><span>Corrections</span></a>
+          </div>
+          <!--*******-->
+
+
+          <!-- Footer Bottom Row -->
+          <div class="col-12 footerlinks footercopyright">
+            <a href="#"><span>Terms of use</span></a>
+            <a href="#"><span>&#169; 2020 New News Company LLC</span></a>
+            <a href="#"><span>Privacy Policy</span></a>
+          </div>
+          <!--*******-->
+
+
+        </div><!-- row -->
+      </div><!-- container -->
+    </div><!-- container-fluid -->
+  </footer>
+  <!-- ********************************************************************************** -->
+
+
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+      
+  </body>
+</html>

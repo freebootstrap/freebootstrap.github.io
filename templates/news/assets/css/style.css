@@ -1,0 +1,369 @@
+
+/************************************ General **********************************/
+
+
+body{
+    font-family: 'Texturina', serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0px;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 0.95rem;
+}
+
+.resimg{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-box-shadow: 3px 3px 5px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 1px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    border-radius: 2px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+a:hover{
+    color: #b0b0b0;
+}
+
+/******************************************************************************/
+
+
+
+
+
+
+
+
+
+/************************************ Header **********************************/
+
+.navbar-toggler {
+    padding: 3px 5px;
+    font-size: 1rem;
+}
+
+.navbar-nav{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-collapse .btn{
+    background: #ffffff;
+    border-left: 1px solid #212529;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.navbar-collapse .input-group{
+    width: 130px;
+}
+
+.navbar-collapse .form-control, .navbar-collapse button{
+    height: 30px;
+}
+
+.navbar-collapse button{
+    width: 40px;
+}
+
+.navbar-collapse svg{
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family: 'Neuton', serif;
+    font-weight: 900;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.date{
+    color: #fff;
+    width: 110px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.weather{
+    font-size: 12px;
+}
+
+.login a{
+    color: #fff;
+    padding: 0 15px 0 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: rgba(255,255,255,.75) !important;
+}
+
+.login a:hover, .login svg.bi.bi-person-fill:hover{
+    color: inherit;
+}
+
+.search svg{
+    color: #000;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    font-size: 12px;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    margin-right: 1px;
+}
+
+.form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+}
+
+
+@media (max-width: 991px){
+
+    .nav-link {
+        padding: .1rem 1rem;
+    }
+
+    .date {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 29px;
+        margin-bottom: 15px;
+    }
+
+    header form{
+        margin-top: 26px;
+    }
+
+    .navbar-collapse .input-group {
+        width: 100%;
+    }
+
+}
+
+
+/******************************************************************************/
+
+
+
+
+
+
+
+
+/************************************ Left Side >> Main News **********************************/
+
+.main div{
+    padding: 10px 10px;
+}
+
+.colborder{
+    border-bottom: 1px solid #212529;
+}
+
+.imgcol{
+    padding-left: 0px !important;
+}
+/**********************************************************************************************/
+
+
+
+
+
+
+/************************************ Right Side >> Sidebar **********************************/
+
+@media (min-width: 768px){
+    .borderleft{
+        border-left: 1px solid #212529;
+    }
+
+}
+
+
+
+
+.rightsection-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    text-align: center;
+    padding: 0px !important;
+    margin: 30px 0px 5px 0px;
+}
+
+.rightsection-headlines{
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+.rightsection-headlines::before {
+    display: inline-block;
+    content: ' ';
+    background-image: url(../img/chevron.svg);
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    margin-left: -20px;
+}
+
+  .rightsection-title:first-child{
+    margin-top: 0px;
+  }
+
+  .rightsection-image{
+    margin: 40px 0px 20px 0px;
+    border: 1px solid #000;
+}
+
+.rightsection-weather{
+    padding: 2px 10px !important;
+}
+
+.rightsection-weather img{
+    display: block;
+}
+
+.rightsection-weather .col-3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0px 10px !important;
+}
+
+.rightsection-weather img{
+    margin: 12px 0px 5px 0px;
+    background: #2196F3;
+}
+
+.rightsection-weather .row{
+    padding: 0px 10px !important;
+}
+
+
+.rightsection-markets{
+    font-size: 14px;
+}
+
+.rightsection-markets .row{
+    margin: 0 auto;
+}
+
+
+.rightsection-markets  .col-3, .rightsection-markets  .col-4, .rightsection-markets  .col-5{
+    padding-top: 10px;
+}
+.rightsection-markets  .col-3, .rightsection-markets  .col-4{
+    text-align: right
+}
+
+.rightsection-markets .col-3{
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.rightsection-opinion .col-6{
+    text-align: center;
+    font-size: 12px;
+}
+
+.rightsection-opinion p{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightsection-opinion img{
+    border-radius: 50%;
+}
+
+.opinion-name{
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+/*********************************************************************************************/
+
+
+
+
+
+
+
+/************************************ Footer **********************************/
+
+footer .container-fluid{
+    background: #212529;
+    color: #fff;
+    padding: 40px 0px;
+    margin-top: 30px;
+}
+
+footer span{
+    padding: 15px;
+}
+
+
+.socialmedia{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.socialmedia svg{
+    margin: 3px;
+}
+
+@media (max-width: 575px){
+
+    .footerlinks span{
+        display: block;
+    }
+
+    footer span{
+        padding: 0 0 2px 0;
+    }
+
+}
+
+.footerlinks{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+
+.footercopyright{
+    font-size: 12px;
+}
+
+/******************************************************************************/
+
+
+
+
