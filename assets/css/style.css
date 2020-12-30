@@ -77,7 +77,11 @@ span{
   z-index: 1;
 }
 
-
+@media (max-width: 500px){
+  .numb {
+    line-height: 0.2em;
+  }
+}
 
 h2{
   color: #282828;
