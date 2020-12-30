@@ -105,6 +105,8 @@ a:hover{
 
 @media (max-width: 361px){
   .apple-badge {
+    display: block;
+    margin: 0 auto;
     margin-top: 10px;
   }
 }

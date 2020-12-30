@@ -78,6 +78,12 @@ span{
   z-index: 1;
 }
 
+@media (max-width: 500px){
+  .numb {
+    line-height: 1.1em;
+  }
+}
+
 h2{
   color: #282828;
   font-size: calc(1rem + 3vw);
